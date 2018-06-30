@@ -5,7 +5,7 @@ vel_media = 0
 verifica = str(input())
 
 if (verifica == "n"):
-    print("zero")
+    print("Zero")
 
 else:
     

@@ -2,11 +2,11 @@ listaA = []
 listaB = []
 listaI = []
 
-for i in range(3):
-	listaA.append(input("Lista A: "))
+for i in range(20):
+	listaA.append(input())
 	sorted(listaA)
-for i in range(3):
-	listaB.append(input("Lista B: "))
+for i in range(20):
+	listaB.append(input())
 	sorted(listaB)
 listaI = sorted(list(set(listaA) & set(listaB)))
 if len(listaI)!= 0:
